@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E7B4CCA-1FB9-2E68-5B86-954BF23E861E" name="CURSO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:16:14 UTC</createdTime>
+<generatorID>A8049C33-6FB2-6F35-7C07-F11470548482</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_curso" id="1B690D73-92DD-7532-4DC2-C3CF83644D19">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:16:14 UTC</createdTime>
+<generatorID>630B573F-8A4D-65C3-52C3-DF0F7D9AB29B</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_curso" id="CA704A1B-65E0-B5B0-822F-AABBE7045A55">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:16:14 UTC</createdTime>
+<generatorID>EB1AE269-0E1D-CCD0-40E8-234C657607D7</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ch_curso" id="B205BD72-DD03-64F7-DE81-0E1461504973">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:16:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valores a serem guardados é: Hora inteira, exemplo: 3000 (horas)]]></commentInRDBMS>
+<generatorID>58723F4B-5BA2-B0FC-34F2-755AFB0064D3</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modalidade" id="FC8034FF-E606-BF67-36CE-25EC54DD6779">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:16:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valores a serem guardados é: "Presencial", "Remoto" ou "Hibrido"]]></commentInRDBMS>
+<generatorID>FB9F1498-065F-05E1-208F-C84383722EC6</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D207733B-2EC8-3DF4-A0CF-4D98FB828775" name="CURSO_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:16:14 UTC</createdTime>
+<generatorID>D6DB68DE-303F-F8F0-9FC0-7D5C5742EBE2</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B690D73-92DD-7532-4DC2-C3CF83644D19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

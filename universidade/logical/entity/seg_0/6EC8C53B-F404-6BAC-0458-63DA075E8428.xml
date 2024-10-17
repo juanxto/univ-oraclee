@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6EC8C53B-F404-6BAC-0458-63DA075E8428" name="GRADE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 11:18:51 UTC</createdTime>
+<ownerDesignName>universidade</ownerDesignName>
+<engineerTo>
+<item key="6E521597-27A6-F0FC-8EE2-681975616CA2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id grade" id="7B70FF98-E363-3796-B137-4E862E823842">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 11:33:29 UTC</createdTime>
+<ownerDesignName>universidade</ownerDesignName>
+<engineerTo>
+<item key="6E521597-27A6-F0FC-8EE2-681975616CA2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hr inicio" id="9D507E16-0866-0707-CE7D-A21B01D8AF13">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 11:33:37 UTC</createdTime>
+<ownerDesignName>universidade</ownerDesignName>
+<engineerTo>
+<item key="6E521597-27A6-F0FC-8EE2-681975616CA2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hr fim" id="3BEB5A8D-72AF-6887-0517-6E90197F7C21">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 11:33:45 UTC</createdTime>
+<ownerDesignName>universidade</ownerDesignName>
+<engineerTo>
+<item key="6E521597-27A6-F0FC-8EE2-681975616CA2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dia semana" id="AC5703CC-BD21-D536-0ABE-90EB6E89E009">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 11:33:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valores a serem guardados é: SEG, TER, QUA, QUI, SEX  e SAB]]></commentInRDBMS>
+<ownerDesignName>universidade</ownerDesignName>
+<engineerTo>
+<item key="6E521597-27A6-F0FC-8EE2-681975616CA2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt grade" id="45AB10F1-D5DD-A68D-F18A-8980F9F27061">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 11:33:59 UTC</createdTime>
+<ownerDesignName>universidade</ownerDesignName>
+<engineerTo>
+<item key="6E521597-27A6-F0FC-8EE2-681975616CA2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sala" id="89C41ED3-13BB-70EB-B1D8-813C1677166F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 11:34:21 UTC</createdTime>
+<ownerDesignName>universidade</ownerDesignName>
+<engineerTo>
+<item key="6E521597-27A6-F0FC-8EE2-681975616CA2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="andar" id="A0D9FB6A-4827-ACDB-0392-CC155E4D163D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 11:34:25 UTC</createdTime>
+<ownerDesignName>universidade</ownerDesignName>
+<engineerTo>
+<item key="6E521597-27A6-F0FC-8EE2-681975616CA2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROFESSOR id professor" id="DCBE3943-33F6-A820-F8A0-FC37F41FCE34">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 11:40:49 UTC</createdTime>
+<generatorID>D4359B8B-CEBF-7327-A1E7-D7E4D1FC9DA0</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<engineerTo>
+<item key="6E521597-27A6-F0FC-8EE2-681975616CA2" value="true"/>
+</engineerTo>
+<referedAttribute>1B044230-5243-4635-13AE-503A4BA8E607</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TURMA id turma" id="068CB4D0-317D-2E85-7F19-97F7B06F3717">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 11:41:17 UTC</createdTime>
+<generatorID>98B15F76-3751-A300-9C04-09433DFC5AEC</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<engineerTo>
+<item key="6E521597-27A6-F0FC-8EE2-681975616CA2" value="true"/>
+</engineerTo>
+<referedAttribute>14AE6730-B8A1-E5CD-9019-C949829CC34C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DISCIPLINA id disciplina" id="AA4BC743-19DB-1B1E-03AA-A737921B3DBE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 11:41:49 UTC</createdTime>
+<generatorID>BCAF66C0-F304-6723-C1D4-9D3438C1DC55</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<engineerTo>
+<item key="6E521597-27A6-F0FC-8EE2-681975616CA2" value="true"/>
+</engineerTo>
+<referedAttribute>A290F47A-CEB3-8040-F49B-72BCB7C4DFFF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="14D9D7F1-69D3-0DD5-DE99-E964D4450DEB" name="GRADE PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 11:33:36 UTC</createdTime>
+<ownerDesignName>universidade</ownerDesignName>
+<engineerTo>
+<item key="6E521597-27A6-F0FC-8EE2-681975616CA2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7B70FF98-E363-3796-B137-4E862E823842</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

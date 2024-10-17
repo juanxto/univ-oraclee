@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TURMA CURSO FK" directorySegmentName="seg_0" id="5EFC846D-7302-2164-A6ED-2E14B7924DC7">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 11:37:25 UTC</createdTime>
+<ownerDesignName>universidade</ownerDesignName>
+<engineerTo>
+<item key="6E521597-27A6-F0FC-8EE2-681975616CA2" value="true"/>
+</engineerTo>
+<sourcePk>D6DB68DE-303F-F8F0-9FC0-7D5C5742EBE2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A8049C33-6FB2-6F35-7C07-F11470548482</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>30DDFFE4-CCC2-CDD9-1124-157C487A3CAE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

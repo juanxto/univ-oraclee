@@ -1,0 +1,185 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0EB12503-CB5F-4197-A9AB-DC35073F0B3F" name="GRADE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:16:14 UTC</createdTime>
+<generatorID>6EC8C53B-F404-6BAC-0458-63DA075E8428</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_grade" id="AC2C0FAF-0141-7096-1A8D-2321F6DFBB08">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:16:14 UTC</createdTime>
+<generatorID>7B70FF98-E363-3796-B137-4E862E823842</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hr_inicio" id="48FA123A-BE9C-43F0-54AF-41DC1DD18484">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:16:14 UTC</createdTime>
+<generatorID>9D507E16-0866-0707-CE7D-A21B01D8AF13</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hr_fim" id="833B6DBD-5AF8-2CD9-C703-D83E6E99ADBB">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:16:14 UTC</createdTime>
+<generatorID>3BEB5A8D-72AF-6887-0517-6E90197F7C21</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dia_semana" id="A2956059-F091-5A22-A587-90731A054386">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:16:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valores a serem guardados é: SEG, TER, QUA, QUI, SEX  e SAB]]></commentInRDBMS>
+<generatorID>AC5703CC-BD21-D536-0ABE-90EB6E89E009</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_grade" id="732B65D1-FED9-5337-EB6E-BB89C4F65ED0">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:16:14 UTC</createdTime>
+<generatorID>45AB10F1-D5DD-A68D-F18A-8980F9F27061</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sala" id="D3F4BACB-C04D-11D7-6AA9-D94D81BC5334">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:16:14 UTC</createdTime>
+<generatorID>89C41ED3-13BB-70EB-B1D8-813C1677166F</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="andar" id="13285F79-4641-5C72-B3EB-093B8BFCED10">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:16:14 UTC</createdTime>
+<generatorID>A0D9FB6A-4827-ACDB-0392-CC155E4D163D</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROFESSOR_id_professor" id="F22E622E-9A25-F5CB-EFDF-1255D1067BCB">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:16:14 UTC</createdTime>
+<generatorID>DCBE3943-33F6-A820-F8A0-FC37F41FCE34</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77421E8F-E46C-1D29-B2EF-F5815AFE92E8" referredColumn="A1EBC14E-6215-612F-E910-144EE4FF27A0"/>
+</associations>
+</Column>
+<Column name="TURMA_id_turma" id="5D64D87A-1917-C96E-ADB7-88BE7EF2BC51">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:16:14 UTC</createdTime>
+<generatorID>068CB4D0-317D-2E85-7F19-97F7B06F3717</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13D248C8-026A-B59F-7692-661AA02E99B1" referredColumn="4FE5AE38-F893-2FC0-CEBC-F7EBB9FCC47B"/>
+</associations>
+</Column>
+<Column name="DISCIPLINA_id_disciplina" id="B3DBC8D5-8DD0-D11B-BC6B-796A8AFA989B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:16:14 UTC</createdTime>
+<generatorID>AA4BC743-19DB-1B1E-03AA-A737921B3DBE</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77BD5BAA-E7B3-E7E8-B776-9349A9D9F480" referredColumn="BE8E2214-B1F6-BB7E-F287-C1171171D5F7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0BC93FDB-4DC0-9E93-E3DA-108C8EFDE3DD" name="GRADE_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:16:14 UTC</createdTime>
+<generatorID>14D9D7F1-69D3-0DD5-DE99-E964D4450DEB</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC2C0FAF-0141-7096-1A8D-2321F6DFBB08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3832C7CE-5794-EB3E-75C7-D5C8C7D536FF" name="GRADE_PROFESSOR_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:16:14 UTC</createdTime>
+<generatorID>D4359B8B-CEBF-7327-A1E7-D7E4D1FC9DA0</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F22E622E-9A25-F5CB-EFDF-1255D1067BCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="373419D5-F379-4510-479E-73611A99FDED" name="GRADE_TURMA_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:16:14 UTC</createdTime>
+<generatorID>98B15F76-3751-A300-9C04-09433DFC5AEC</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D64D87A-1917-C96E-ADB7-88BE7EF2BC51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21810EFE-46A5-6408-1BAB-04162EFD871E" name="GRADE_DISCIPLINA_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:16:14 UTC</createdTime>
+<generatorID>BCAF66C0-F304-6723-C1D4-9D3438C1DC55</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3DBC8D5-8DD0-D11B-BC6B-796A8AFA989B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

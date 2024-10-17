@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="GRADE TURMA FK" directorySegmentName="seg_0" id="98B15F76-3751-A300-9C04-09433DFC5AEC">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 11:41:17 UTC</createdTime>
+<ownerDesignName>universidade</ownerDesignName>
+<engineerTo>
+<item key="6E521597-27A6-F0FC-8EE2-681975616CA2" value="true"/>
+</engineerTo>
+<sourcePk>5885404F-9353-B984-1D4B-FEFCC8685A0A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>30DDFFE4-CCC2-CDD9-1124-157C487A3CAE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6EC8C53B-F404-6BAC-0458-63DA075E8428</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

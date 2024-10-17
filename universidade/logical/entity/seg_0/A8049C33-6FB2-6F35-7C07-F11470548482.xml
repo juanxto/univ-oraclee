@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A8049C33-6FB2-6F35-7C07-F11470548482" name="CURSO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 11:18:29 UTC</createdTime>
+<ownerDesignName>universidade</ownerDesignName>
+<engineerTo>
+<item key="6E521597-27A6-F0FC-8EE2-681975616CA2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id curso" id="630B573F-8A4D-65C3-52C3-DF0F7D9AB29B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 11:27:46 UTC</createdTime>
+<ownerDesignName>universidade</ownerDesignName>
+<engineerTo>
+<item key="6E521597-27A6-F0FC-8EE2-681975616CA2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm curso" id="EB1AE269-0E1D-CCD0-40E8-234C657607D7">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 11:27:53 UTC</createdTime>
+<ownerDesignName>universidade</ownerDesignName>
+<engineerTo>
+<item key="6E521597-27A6-F0FC-8EE2-681975616CA2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ch curso" id="58723F4B-5BA2-B0FC-34F2-755AFB0064D3">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 11:27:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valores a serem guardados é: Hora inteira, exemplo: 3000 (horas)]]></commentInRDBMS>
+<ownerDesignName>universidade</ownerDesignName>
+<engineerTo>
+<item key="6E521597-27A6-F0FC-8EE2-681975616CA2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modalidade" id="FB9F1498-065F-05E1-208F-C84383722EC6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 11:28:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valores a serem guardados é: "Presencial", "Remoto" ou "Hibrido"]]></commentInRDBMS>
+<ownerDesignName>universidade</ownerDesignName>
+<engineerTo>
+<item key="6E521597-27A6-F0FC-8EE2-681975616CA2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D6DB68DE-303F-F8F0-9FC0-7D5C5742EBE2" name="CURSO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 11:27:51 UTC</createdTime>
+<ownerDesignName>universidade</ownerDesignName>
+<engineerTo>
+<item key="6E521597-27A6-F0FC-8EE2-681975616CA2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>630B573F-8A4D-65C3-52C3-DF0F7D9AB29B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

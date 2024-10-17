@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="GRADE PROFESSOR FK" directorySegmentName="seg_0" id="D4359B8B-CEBF-7327-A1E7-D7E4D1FC9DA0">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 11:40:49 UTC</createdTime>
+<ownerDesignName>universidade</ownerDesignName>
+<engineerTo>
+<item key="6E521597-27A6-F0FC-8EE2-681975616CA2" value="true"/>
+</engineerTo>
+<sourcePk>FC4D89B6-D8E6-F9C7-954B-7D4EB0E0820E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>42F12424-6A46-96E7-5FA4-ED77E09CB9CF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6EC8C53B-F404-6BAC-0458-63DA075E8428</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
